@@ -1,0 +1,100 @@
+/* General page styling */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+h1{
+    text-align: center;
+    color: #0d6efd;
+    text-transform: uppercase;
+}
+/* Container for cart */
+#demo {
+  max-width: 900px;
+  margin: auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Total display */
+#totalDisplay {
+  max-width: 900px;
+  margin: 20px auto;
+  font-size: 20px;
+  font-weight: bold;
+  color: #444;
+  text-align: center;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #0d6efd;
+  color: white;
+  font-weight: 600;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Buttons */
+button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+/* Specific buttons */
+button[onclick*="add_selection"] {
+  background-color: #198754; /* green */
+  color: white;
+}
+
+button[onclick*="remove_selection"] {
+  background-color: #dc3545; /* red */
+  color: white;
+}
+
+button[onclick*="checkout"] {
+  margin-top: 20px;
+  background-color: #0d6efd; /* blue */
+  color: white;
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

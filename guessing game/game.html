@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Guessing Game</title>
+  <link rel="stylesheet" href="game.css" />
+</head>
+<body>
+  <h1>Number Guessing Game</h1>
+  <div class="game-container">
+    <p id="message">I am thinking of a number between 1 and 20. Can you guess what it is?</p>
+    <input type="number" id="guessInput" min="1" max="20" />
+    
+  </div>
+  <button onclick="checkGuess()">Submit Guess</button>
+  <script src="game.js"></script>
+</body>
+</html>

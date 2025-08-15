@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Use Conditional Statements</title>
+
+    <link rel="stylesheet" href="pizza.css">
+
+</head>
+
+<body>
+    <h1>JavaScript Pizzeria</h1>
+    <div id="orderForm">
+        <label>How many pizzas do you want?
+            <input type="number" id="numPizzas" />
+        </label>
+        <br />
+        <br />
+        <label>What kind of pizzas?
+            <select id="typePizza">
+                <option value="cheese">Cheese</option>
+                <option value="pepperoni">Pepperoni</option>
+                <option value="pepperoni">Steak</option>
+                <option value="pepperoni">Sausage</option>
+            </select>
+        </label>
+        <br />
+        <br />
+        <label>Where do you live?
+            <select id="deliveryCity">
+                <option value="Durban">Durban</option>
+                <option value="Umhlanga">Umhlanga</option>
+                <option value="Durban North">Durban North</option>
+                <option value="LaLucia">LaLucia</option>
+            </select>
+        </label>
+        <br />
+        <br />
+        <label>Is it your birthday?
+            <select id="birthday">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+        </label>
+        <br />
+        <br />
+        <button type="button" id="placeOrder">Place
+            Order</button>
+    </div>
+    <div id="displayTotal"></div>
+
+    <script src='pizza.js'></script>
+    
+</body>
+
+</html>

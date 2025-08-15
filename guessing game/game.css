@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+ height: 100vh;
+ margin: 50px auto 0;
+}
+
+
+h1 {
+  text-align: center;
+  margin: 40px 0 0 0;
+  font-size: 40px;
+}
+
+.game-container {
+  background-color: rgba(248, 249, 248, 0.767);
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  width: 350px;
+  height:150px;
+  margin:100px auto 0;
+  font-size: large;
+  font-weight:600;
+
+}
+
+input[type="number"] {
+  padding: 8px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+#guessInput{
+    margin-top: 20px;
+}
+
+button {
+  padding: 12px 16px;
+  font-size: 20px;
+  font-weight: bolder;
+  cursor: pointer;
+  align-items: center;
+  margin-left: 45%;
+  margin-top: 2%;
+  background-image: linear-gradient(-45deg, #FFC796 0%, #FF6B95 100%); 
+  
+}
+
+button:hover{
+ color:rgb(246, 241, 241);
+ background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
+ transition: ease-in-out 0.3s;
+ 
+}
